@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Order Setup</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="../logo.png" alt="RetailOrder Connect Logo" class="logo">
+            <h1>RetailOrder Connect</h1>
+        </div>
+        <div class="header-right">
+            <a href="../distributor/login.html" class="nav-btn">Distributor</a>
+            <a href="login-register.html" class="nav-btn">Retailer</a>
+            <a href="#" class="nav-btn">Account</a>
+        </div>
+    </header>
+    <nav>
+        <a href="../index.html" class="nav-btn">Home</a>
+        <a href="dashboard.html" class="nav-btn">Dashboard</a>
+        <a href="browse.html" class="nav-btn">Browse Products</a>
+        <a href="order-form.html" class="nav-btn">Order Form</a>
+        <a href="auto-order.html" class="nav-btn active">Auto Order</a>
+        <a href="fast-delivery.html" class="nav-btn">Fast Delivery</a>
+        <a href="order-history.html" class="nav-btn">Order History</a>
+    </nav>
+    <main>
+        <h2>Auto Order Setup</h2>
+        <div class="dashboard-section">
+            <h3>Auto Order Status</h3>
+            <ul>
+                <li>Status: <span id="auto-order-status">Enabled</span></li>
+            </ul>
+            <button onclick="refreshData('auto-order')">Refresh Status</button>
+        </div>
+    </main>
+    <script src="../script.js"></script>
+</body>
+</html>

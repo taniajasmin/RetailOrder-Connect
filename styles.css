@@ -1,0 +1,110 @@
+body {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #16213e;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 80px; /* Smaller logo */
+    height: auto;
+    margin-right: 10px;
+}
+
+h1 {
+    color: #00d4ff;
+    margin: 0;
+    font-size: 24px;
+}
+
+p {
+    color: #a9a9a9;
+    margin: 5px 0;
+    display: none; /* Removed from header to mimic Amazon's layout */
+}
+
+.header-right a {
+    margin-left: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #0f141f;
+    padding: 10px 0;
+}
+
+.nav-btn {
+    background-color: #00d4ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-btn.active {
+    background-color: #00aaff;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #00d4ff;
+}
+
+.dashboard-section {
+    margin-bottom: 20px;
+    background-color: #252537;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+button {
+    background-color: #00d4ff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 8px;
+    background-color: #333;
+    border: 1px solid #00d4ff;
+    color: #fff;
+    border-radius: 4px;
+}
