@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area & Delivery Schedule</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="../logo.png" alt="RetailOrder Connect Logo" class="logo">
+            <h1>RetailOrder Connect</h1>
+        </div>
+        <div class="header-right">
+            <a href="login.html" class="nav-btn">Distributor</a>
+            <a href="../retailer/login-register.html" class="nav-btn">Retailer</a>
+            <a href="#" class="nav-btn">Account</a>
+        </div>
+    </header>
+    <nav>
+        <a href="../index.html" class="nav-btn">Home</a>
+        <a href="dashboard.html" class="nav-btn">Dashboard</a>
+        <a href="area-schedule.html" class="nav-btn active">Area & Schedule</a>
+        <a href="product.html" class="nav-btn">Product Management</a>
+        <a href="order-list.html" class="nav-btn">Order List</a>
+        <a href="sales-report.html" class="nav-btn">Sales Report</a>
+    </nav>
+    <main>
+        <h2>Area & Delivery Schedule Management</h2>
+        <div class="dashboard-section">
+            <h3>Schedule Details</h3>
+            <ul>
+                <li>Areas: <span id="areas">D1, D2</span></li>
+                <li>Schedule: <span id="schedule">Mon-Fri</span></li>
+            </ul>
+            <button onclick="refreshData('area-schedule')">Refresh Schedule</button>
+        </div>
+    </main>
+    <script src="../script.js"></script>
+</body>
+</html>

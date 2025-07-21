@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retailer Dashboard</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="../logo.png" alt="RetailOrder Connect Logo" class="logo">
+            <h1>RetailOrder Connect</h1>
+        </div>
+        <div class="header-right">
+            <a href="../distributor/login.html" class="nav-btn">Distributor</a>
+            <a href="login-register.html" class="nav-btn">Retailer</a>
+            <a href="#" class="nav-btn">Account</a>
+        </div>
+    </header>
+    <nav>
+        <a href="../index.html" class="nav-btn">Home</a>
+        <a href="dashboard.html" class="nav-btn active">Dashboard</a>
+        <a href="browse.html" class="nav-btn">Browse Products</a>
+        <a href="order-form.html" class="nav-btn">Order Form</a>
+        <a href="auto-order.html" class="nav-btn">Auto Order</a>
+        <a href="fast-delivery.html" class="nav-btn">Fast Delivery</a>
+        <a href="order-history.html" class="nav-btn">Order History</a>
+    </nav>
+    <main>
+        <h2>Retailer Dashboard</h2>
+        <div class="dashboard-section">
+            <h3>Upcoming Delivery</h3>
+            <ul>
+                <li>Next Delivery: <span id="next-delivery">Friday, July 11, 2025</span></li>
+            </ul>
+            <button onclick="refreshData('retailer-delivery')">Refresh Delivery</button>
+        </div>
+        <div class="dashboard-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="order-form.html">Place Order</a></li>
+                <li><a href="order-history.html">View History</a></li>
+            </ul>
+        </div>
+    </main>
+    <script src="../script.js"></script>
+</body>
+</html>
