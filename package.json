@@ -8,6 +8,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
+=======
+  "description": "",
+>>>>>>> bceb3e64c38cbffa235256d3217baf115debee36
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
@@ -15,6 +19,10 @@
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.16.3"
+<<<<<<< HEAD
   },
   "description": ""
+=======
+  }
+>>>>>>> bceb3e64c38cbffa235256d3217baf115debee36
 }
